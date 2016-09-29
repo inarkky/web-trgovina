@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+    font-family: custom-font;
+    src: url(Wizards-Magic.ttf);
+}
+h1, h2, h3, h4 {
+font-family: 'custom-font', sans-serif;
+font-weight: 300;
+}
+p {
+font-family: "Helvetica Neue", sans-serif;
+}
+a.btn{
+	font-weight: bold;
+}
+body{
+	background: url('12755050_10206844694608407_1366871526_o.jpg');
+}
+.top .navbar-brand {
+height: 120px;
+line-height: 50px;
+text-align: center;
+padding: 0px;
+padding-right: 35px;
+color: #474747;
+text-decoration: none;
+}
+.top .container {
+padding: 0;
+}
+.banner {
+background-color: #000000;
+}
+.banner .container {
+padding: 0px;
+}
+.banner .container p {
+font-size: 22px;
+padding-left: 5px;
+font-weight: 300;
+}
+.middle .container {
+/*background-color: #FFF;*/
+min-height: 300px;
+padding-bottom: 20px;
+}
+.navbar-nav li a {
+color: #CCC;
+font-family: "Helvetica Neue", sans-serif;
+}
+.navbar-nav li a:hover {
+background-color: #373737;
+}
+.bottom {
+background-color: #474747;
+}
+.bottom .container {
+background-color: #373737;
+min-height: 150px;
+}
+.bottom .container h3 {
+color: #999;
+}
+.bottom .container p {
+color: #666;
+}
+.navbar-toggle {
+color: #009b9b;
+font-size: 32px;
+margin: 3px;
+padding: 2px 5px;
+line-height: 32px;
+}
+.navbar-toggle:hover {
+background-color: #373737;
+}
+.navbar-nav {
+margin: 0;
+}
+.content p {
+line-height: 30px;
+font-size: 16px;
+}
+
+/*grid*/
+ul.rig {
+    list-style: none;
+    font-size: 0px;
+    margin-left: -2.5%; 
+}
+ul.rig li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 2.5% 2.5%;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+    max-width: 100%;
+    height:200px;
+    min-width: 226px;
+    margin: 0 0 10px;
+}
+ul.rig li h3 {
+    margin: 0 0 5px;
+}
+ul.rig li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+ul.rig.columns-2 li {
+    width: 47.5%; 
+}
+
+ul.rig.columns-3 li {
+    width: 30.83%; 
+}
+
+ul.rig.columns-4 li {
+    width: 22.5%; 
+}
+ 
+ul.rig a {
+    display: block; 
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    ul.grid-nav li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    ul.grid-nav li a {
+        display: block;
+    }
+    ul.rig {
+        margin-left: 0;
+    }
+    ul.rig li {
+        width: 100% !important; 
+        margin: 0 0 20px;
+    }
+}
+
+.trans-back{
+background-color: rgba(255, 255, 255, 0.5);
+background: rgba(255, 255, 255, 0.5);
+padding: 10px;
+}
