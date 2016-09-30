@@ -6,6 +6,7 @@ Koncept izrade funkcionalnog web-shopa od nule
 ----------
 
 Aplikacija sadrzi:
+
 **za sve**
 
  - dvije klase korisnika (kupac i administrator trgovine)
